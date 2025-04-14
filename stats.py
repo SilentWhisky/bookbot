@@ -13,3 +13,6 @@ def count_char(text):
             char_num_dict[char] = 1
 
     return char_num_dict
+
+def sort(dict):
+    return sorted(dict.items(), key=lambda item: item[1], reverse = True)
